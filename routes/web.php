@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('theme.back-office.pages.admin');
+});
+
+
+
+Route::group(['middleware => auth' ,'as' => 'backoffice.'], function() {
+    
+    //    
+    Route::resource('user', 'UserController');
+    Route::resource('role', 'RoleController');
+    
+
+
 });
