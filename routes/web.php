@@ -22,7 +22,7 @@ Route::get('/', function () {
 Route::group(['middleware => auth' ,'as' => 'backoffice.'], function() {
     
     //    
-    Route::resource('user', 'UserController');
+  
     Route::resource('role', 'RoleController');
     
 
