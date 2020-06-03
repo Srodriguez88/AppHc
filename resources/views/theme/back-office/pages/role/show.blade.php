@@ -39,15 +39,18 @@
                                 <span class="invalid-feedback" role="alert">
                                 <strong>{{ $errors->first('description') }}</strong>
                                 </span>                          
-                            @endif                        
-                        </div>                            
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <button class="btn waves-effect waves-light right" type="submit" href="{{route('backoffice.role.index')}}">Volver
-                                    <i class="material-icons right">chevron_left</i>
-                                </button>                     
+                            @endif
+                            
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <button class="btn waves-effect waves-light right" type="submit" href="{{route('backoffice.role.index')}}">Volver
+                                        <i class="material-icons right">arrow_back</i>
+                                    </button>                   
+                                </div>
                             </div>
-                        </div>
+                        </div> 
+                                                   
+                        
                     </div>
                 </div>              
             </div>

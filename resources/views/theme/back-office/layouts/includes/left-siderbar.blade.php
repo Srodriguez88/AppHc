@@ -39,6 +39,12 @@
               </a>
           </li>
           <li class="bold">
+            <a href="{{ route('backoffice.role.index')}}" class="waves-effect waves-cyan">
+                <i class="material-icons">verified_user</i>
+                <span class="nav-text">Roles</span>
+              </a>
+          </li>
+          <li class="bold">
             <a href="cards-basic.html" class="waves-effect waves-cyan">
                 <i class="material-icons">cast</i>
                 <span class="nav-text">Cards</span>

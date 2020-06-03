@@ -10,6 +10,9 @@
 
 <div id="striped-table">
     <h4 class="header">Roles del Sistema</h4>
+    
+  <a class="btn-floating btn-small right waves-effect waves-light red" href=" {{route('backoffice.role.create')}}"><i class="material-icons">add</i></a>
+        
     <div class="divider"></div>
     <div class="row">
       <div class="col s12">

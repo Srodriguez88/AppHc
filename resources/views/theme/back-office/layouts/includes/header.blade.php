@@ -38,7 +38,7 @@
             </li>
           
           </ul>
-          <!-- translation-button -->
+          {{--  <!-- translation-button -->  --}}
           <ul id="translation-dropdown" class="dropdown-content">
             <li>
               <a href="#!" class="grey-text text-darken-1">
@@ -51,7 +51,7 @@
            
           </ul>
        
-          <!-- profile-dropdown -->
+          {{--  <!-- profile-dropdown -->  --}}
           <ul id="profile-dropdown" class="dropdown-content">
             <li>
               <a href="#" class="grey-text text-darken-1">

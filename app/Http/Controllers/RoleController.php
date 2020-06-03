@@ -8,6 +8,7 @@ use App\Http\Requests\Role\StoreRequest;
 use App\Http\Requests\Role\UpdateRequest;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
+use RealRashid\SweetAlert\Facades\Alert;
 
 
 class RoleController extends Controller
@@ -36,6 +37,8 @@ class RoleController extends Controller
         $role->description = $request->description;
         $role->slug =  $slug;  
         $role->save();
+
+        toast('Se guardo correctamente','success');
        
         return redirect()->route('backoffice.role.index');
 
@@ -66,7 +69,7 @@ class RoleController extends Controller
         $role->description = $request->description;
         $role->slug =  $slug;  
         $role->save();
-       
+        toast('Se Actualizo correctamente','success');
         return redirect()->route('backoffice.role.index');
     }
 

@@ -8,7 +8,7 @@ class Role extends Model
 {
     //Table Role
     protected $fillable = [
-        'name', 'slug', 'description',
+        'name', 'slug', 'description', 'estado'
     ];
 
     //Relationship
